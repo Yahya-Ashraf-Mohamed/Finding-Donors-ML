@@ -2,10 +2,10 @@
 ## Project: Finding Donors for CharityML
 
 ### Duration: 
-    During my Machine Learning Cross-Skilling NANODEGREE Program
+During my Machine Learning Cross-Skilling NANODEGREE Program
 
 ### Aim:
-    Build a model that predicts the potential charity donors based on predicting how much they are making money a year. Based on that I label them as a potential donors or not.
+Build a model that predicts the potential charity donors based on predicting how much they are making money a year. Based on that I label them as a potential donors or not.
 
 ### Algorithms used:
 - Random Forest Classifier
