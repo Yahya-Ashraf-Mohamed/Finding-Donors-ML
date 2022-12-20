@@ -1,1 +1,62 @@
-"# Finding-Donors-ML" 
+# Supervised Learning
+## Project: Finding Donors for CharityML
+
+### Duration: 
+    During my Machine Learning Cross-Skilling NANODEGREE Program
+
+### Aim:
+    Build a model that predicts the potential charity donors based on predicting how much they are making money a year. Based on that I label them as a potential donors or not.
+
+### Algorithms used:
+- Random Forest Classifier
+- SDG Classifier
+- ADA Boost Classifier
+- LogisticRegression
+- Decision Tree
+- Support Vector Machine
+
+### Model Evalution Metrics Used:
+- Accuracy Score
+- Beta F-Score
+
+### Model Tunning Technique Used:
+- Grid Search
+  
+
+### Install
+This project requires **Python 3.x** and the following Python libraries installed:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+
+
+### Run
+**Template code:** 
+* `finding_donors.ipynb` notebook file.
+
+**Included**: 
+* `visuals.py` Python file
+* `census.csv` dataset file
+
+
+### Data
+**Features**
+- `age`: Age
+- `workclass`: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
+- `education_level`: Level of Education (Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool)
+- `education-num`: Number of educational years completed
+- `marital-status`: Marital status (Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse)
+- `occupation`: Work Occupation (Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces)
+- `relationship`: Relationship Status (Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried)
+- `race`: Race (White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black)
+- `sex`: Sex (Female, Male)
+- `capital-gain`: Monetary Capital Gains
+- `capital-loss`: Monetary Capital Losses
+- `hours-per-week`: Average Hours Per Week Worked
+- `native-country`: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
+
+**Target Variable**
+- `income`: Income Class (<=50K, >50K)
+
